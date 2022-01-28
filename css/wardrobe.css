@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+background-image: url(../img/background-wood.jpg);
+background-size: 100%;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+}
+.header{
+margin-top: 15px;
+text-align: center;
+}
+.nav-link{
+display: flex;
+background-color: white;
+flex-direction: row;
+margin-top: 5px;
+justify-content: space-around;
+}
+.nav-link a{
+color: black;
+font-size: 26px;
+padding: 30px;
+}
+.nav-link a:hover{
+color: black;
+font-weight: 700;
+}
+.link{
+text-decoration: none;
+}
+.text-c{
+border-radius: 0px;
+opacity: 0.9;
+margin-top: 10px;
+background-color: white;
+text-align: center;
+}
+.table{
+border-radius: 0px;
+background-color: white;
+text-align: center;
+padding: 15px;
+}
+.tables{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.button{
+border-radius: 5px;
+background-color: red;
+color: white;
+font-weight: 600;
+font-size: 20px;
+max-width: 100px;
+}
+.price{
+font-weight: 600;
+}
+.table img:hover{
+transform: scale(1.1);
+transition-duration: 0.2s;
+cursor: pointer;
+}
+.lore{
+font-weight: 600;
+}
+.footer{
+padding: 10px;
+text-align: center;
+color: white;
+}
+.logo{
+max-width: 300px;
+}
+

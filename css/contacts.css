@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+background-image: url(../img/sbackground.jpg);
+background-size: 100%;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+}
+.contacts{
+background-color: white;
+display: flex;
+margin-top: 30px;
+flex-direction: column;
+padding: 40px;
+border-radius: 20px;
+}
+.contacts img{
+width: 40px;
+}
+.contact{
+margin: 10px;
+}
+.header{
+margin-top: 5px;
+text-align: center;
+}
+.nav-link{
+display: flex;
+background-color: white;
+flex-direction: row;
+margin-top: 5px;
+justify-content: space-around;
+}
+.nav-link a{
+color: black;
+font-size: 26px;
+}
+.nav-link a:hover{
+color: black;
+font-weight: 700;
+}
+.link{
+text-decoration: none;
+}
+.button{
+border-radius: 5px;
+}
+.back{
+background-color: whitesmoke;
+border-radius: 20px;
+display: flex;
+margin-top: 30px;
+flex-direction: column;
+}
+.send{
+background-color: steelblue;
+color: white;
+margin-top: 10px;
+border-radius: 4px;
+}
+.wrapper{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.textarea{
+resize: none;
+}
+.connect{
+padding: 40px;
+}
+.footer{
+padding: 10px;
+text-align: center;
+color: white;
+}
+.main{
+margin-top: 30px;
+}
+.container h2{
+text-align: center;
+}
+.logo{
+max-width: 250px;
+}
+.iframe-s{
+border-radius: 20px;
+margin: 30px;
+width: 1210px;
+height: 450px;
+}
+.class-h1{
+background-color: white;
+opacity: 0.9;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
